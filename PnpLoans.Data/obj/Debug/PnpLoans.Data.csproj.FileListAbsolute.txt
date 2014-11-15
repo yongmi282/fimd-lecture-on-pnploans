@@ -1,0 +1,15 @@
+c:\Users\MAGILAS\documents\visual studio 2013\Projects\PnpLoans\PnpLoans.Data\bin\Debug\PnpLoans.Data.dll.config
+c:\Users\MAGILAS\documents\visual studio 2013\Projects\PnpLoans\PnpLoans.Data\bin\Debug\PnpLoans.Data.dll
+c:\Users\MAGILAS\documents\visual studio 2013\Projects\PnpLoans\PnpLoans.Data\bin\Debug\PnpLoans.Data.pdb
+c:\Users\MAGILAS\documents\visual studio 2013\Projects\PnpLoans\PnpLoans.Data\bin\Debug\EntityFramework.dll
+c:\Users\MAGILAS\documents\visual studio 2013\Projects\PnpLoans\PnpLoans.Data\bin\Debug\EntityFramework.xml
+c:\Users\MAGILAS\documents\visual studio 2013\Projects\PnpLoans\PnpLoans.Data\obj\Debug\PnpLoans.Data.csprojResolveAssemblyReference.cache
+c:\Users\MAGILAS\documents\visual studio 2013\Projects\PnpLoans\PnpLoans.Data\obj\Debug\PnpLoans.Data.dll
+c:\Users\MAGILAS\documents\visual studio 2013\Projects\PnpLoans\PnpLoans.Data\obj\Debug\PnpLoans.Data.pdb
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoans.Data\bin\Debug\PnpLoans.Data.dll.config
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoans.Data\bin\Debug\PnpLoans.Data.dll
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoans.Data\bin\Debug\PnpLoans.Data.pdb
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoans.Data\bin\Debug\EntityFramework.dll
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoans.Data\bin\Debug\EntityFramework.xml
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoans.Data\obj\Debug\PnpLoans.Data.dll
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoans.Data\obj\Debug\PnpLoans.Data.pdb
