@@ -1,0 +1,10 @@
+c:\users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan\bin\PnpLoan.Web.dll.config
+c:\users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan\bin\PnpLoan.Web.dll
+c:\users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan\bin\PnpLoan.Web.pdb
+c:\users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan\bin\EntityFramework.dll
+c:\users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan\bin\PnpLoan.Data.dll
+c:\users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan\bin\PnpLoan.Data.pdb
+c:\users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan\bin\EntityFramework.xml
+c:\users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan\obj\Debug\PnpLoan.Web.csprojResolveAssemblyReference.cache
+c:\users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan\obj\Debug\PnpLoan.Web.dll
+c:\users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan\obj\Debug\PnpLoan.Web.pdb
