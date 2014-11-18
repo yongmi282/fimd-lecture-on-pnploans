@@ -12,11 +12,11 @@ namespace PnpLoan.Web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!Page.IsPostBack)
+           if (!Page.IsPostBack)//any click is true; redirected page loads is false
             {
                 TxtUsername.Enabled = false;// disable updating/editing of username
                 DisplayUserType();
-                DisplayUserDetails();
+                DisplayUserDetails();// these are values in the text box
             }
         }
 

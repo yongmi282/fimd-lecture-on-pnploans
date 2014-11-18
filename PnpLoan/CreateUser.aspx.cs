@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using PnpLoan.Data;
+using System.Net.Mail;
 
 namespace PnpLoan.Web
 {
@@ -20,7 +21,7 @@ namespace PnpLoan.Web
 
         private void DisplayUserType()
         {
-            using(var context = new PnpLoanEntities())
+            using (var context = new PnpLoanEntities())
             {
                 DdlUserType.DataSource = context.UserTypes.ToList();
                 DdlUserType.DataValueField = "UserTypeId";
@@ -50,6 +51,8 @@ namespace PnpLoan.Web
             {
                 AddUserToDataBase();
                 Session["InfoMessage"] = "User" + TxtUsername.Text + "Succesfully Created.";
+                //SPAM EMAIL: while(true) SendEmailGreeting(TxtEmail.Text);
+                SendEmailGreeting(TxtEmail.Text);// put the email greeting
                 Response.Redirect("UserList.aspx");
             }
         }
@@ -73,53 +76,53 @@ namespace PnpLoan.Web
                 context.SaveChanges();
             }
         }
-        
 
-        private List <string> ValidateInputs()
+
+        private List<string> ValidateInputs()
         {
             var errors = new List<string>();
 
-            if(string.IsNullOrWhiteSpace(TxtLastname.Text))
+            if (string.IsNullOrWhiteSpace(TxtLastname.Text))
             {
                 errors.Add("Lastname is Required.");
             }
 
-            if(string.IsNullOrWhiteSpace(TxtFirstname.Text))
+            if (string.IsNullOrWhiteSpace(TxtFirstname.Text))
             {
                 errors.Add("Firstname is Required.");
             }
 
-            if(string.IsNullOrWhiteSpace(TxtMiddlename.Text))
+            if (string.IsNullOrWhiteSpace(TxtMiddlename.Text))
             {
                 errors.Add("Middlename is Required.");
             }
 
-            if(string.IsNullOrWhiteSpace(TxtUsername.Text))
+            if (string.IsNullOrWhiteSpace(TxtUsername.Text))
             {
                 errors.Add("Username is Required.");
             }
 
-            if(string.IsNullOrWhiteSpace(DdlUserType.Text))
+            if (string.IsNullOrWhiteSpace(DdlUserType.Text))
             {
                 errors.Add("Usertype is Required.");
             }
 
-            if(string.IsNullOrWhiteSpace(TxtEmail.Text))
+            if (string.IsNullOrWhiteSpace(TxtEmail.Text))
             {
                 errors.Add("Email is required.");
             }
 
-            if(string.IsNullOrWhiteSpace(TxtPassword.Text))
+            if (string.IsNullOrWhiteSpace(TxtPassword.Text))
             {
                 errors.Add("Password is Required.");
             }
 
-            if(string.IsNullOrWhiteSpace(TxtRepeatPassword.Text))
+            if (string.IsNullOrWhiteSpace(TxtRepeatPassword.Text))
             {
                 errors.Add("Re-type Password.");
             }
 
-            if(TxtPassword.Text != TxtRepeatPassword.Text)
+            if (TxtPassword.Text != TxtRepeatPassword.Text)
             {
                 errors.Add("Password Mismatch");
             }
@@ -152,5 +155,34 @@ namespace PnpLoan.Web
 
 
         }
+
+        private void SendEmailGreeting(string email)
+        {
+            SmtpClient smtpClient = new SmtpClient("smtp.gmail.com", 587);
+            smtpClient.UseDefaultCredentials = false;
+
+            smtpClient.Credentials = new System.Net.NetworkCredential("username@gmail.com", "password");
+
+            smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
+            smtpClient.EnableSsl = true;
+
+            MailMessage mail = new MailMessage();
+
+            mail.Subject = "PNP Loan Welcome Email";
+            mail.SubjectEncoding = System.Text.Encoding.UTF8;
+            mail.Body = "Hello Word this can also be in html form";
+            mail.BodyEncoding = System.Text.Encoding.UTF8;
+            mail.IsBodyHtml = true;
+            mail.Priority = MailPriority.High;
+
+            //setting From, To and CC
+            mail.From = new MailAddress("loans@PnpLoan.com", "PNP Loans");
+            mail.To.Add(new MailAddress(email));
+
+            smtpClient.Send(mail);
+            //end of method
+
+        }
     }
+
 }
