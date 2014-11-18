@@ -12,8 +12,9 @@ namespace PnpLoan.Web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (true)
+            if (!Page.IsPostBack)
             {
+                TxtUsername.Enabled = false;// disable updating/editing of username
                 DisplayUserType();
                 DisplayUserDetails();
             }
@@ -56,7 +57,33 @@ namespace PnpLoan.Web
 
         protected void BtnUpdate_Click(object sender, EventArgs e)
         {
+            using(var context = new PnpLoanEntities())
+            {
+                int userId = int.Parse(Request.QueryString["ID"]);
 
+                //sql version: select top 1 * from SecurityUser
+                //             where SecurityUserId=@userId
+
+                //LINQ:
+                //var user = (from u in context.SecurityUsers
+                //           where u.SecurityUserId == userId)
+                //           .FirstOrDefault();
+
+                //Lambda
+                var user = context
+                    .SecurityUsers
+                    .FirstOrDefault(u => u.SecurityUserId == userId);
+
+                user.LastName = TxtLastname.Text;
+                user.FirstName = TxtFirstname.Text;
+                user.MiddleName = TxtMiddlename.Text;
+                user.Email = TxtEmail.Text;
+                user.UserTypeId = int.Parse(DdlUserType.SelectedValue);
+
+                context.SaveChanges(); //push the changes to the Database
+            }
+
+            Response.Redirect("UserList.aspx");
         }
     }
 }

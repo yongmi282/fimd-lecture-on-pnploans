@@ -54,5 +54,27 @@ namespace PnpLoan.Web
             Response.Redirect("EditUser.aspx?ID="+securityId);
 
         }
+
+        protected void BtnDelete_Click(object sender, EventArgs e)
+        {
+            if (GridUser.SelectedRow == null) return;//this will not execute the codes below anymore
+
+            int userId = int.Parse(GridUser
+                             .SelectedRow
+                             .Cells[1]
+                             .Text);
+
+             using (var context = new PnpLoanEntities())
+             {
+                 var user = context
+                     .SecurityUsers
+                     .FirstOrDefault(u => u.SecurityUserId == userId);
+
+                 context.SecurityUsers.Remove(user);
+                 context.SaveChanges();
+             }
+             DisplayUsers(); //refresh the datagrid after deleting
+             GridUser.SelectedIndex = -1; //this will 'unselect' all other rows previously selected
+        }
     }
 }

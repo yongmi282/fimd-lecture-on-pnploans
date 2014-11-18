@@ -23,6 +23,8 @@
         <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
     </asp:GridView>
     <asp:Button runat="server"
-        ID ="BtnEdit" Text="Edit" OnClick="BtnEdit_Click"/>
+        ID ="BtnEdit" CssClass="btn btn-primary" Text="Edit" OnClick="BtnEdit_Click"/>
+
+    <asp:Button ID="btnDelete" runat="server" CssClass="btn btn-primary" OnClick="BtnDelete_Click" Text="Delete" />
 
 </asp:Content>

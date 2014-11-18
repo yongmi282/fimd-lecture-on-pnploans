@@ -8,3 +8,15 @@ c:\users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan\bin\En
 c:\users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan\obj\Debug\PnpLoan.Web.csprojResolveAssemblyReference.cache
 c:\users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan\obj\Debug\PnpLoan.Web.dll
 c:\users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan\obj\Debug\PnpLoan.Web.pdb
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan\bin\PnpLoan.Web.dll.config
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan\bin\PnpLoan.Web.dll
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan\bin\PnpLoan.Web.pdb
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan\bin\EntityFramework.dll
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan\bin\PnpLoan.Data.dll
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan\bin\PnpLoan.Data.pdb
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan\bin\EntityFramework.xml
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan\obj\Debug\PnpLoan.Web.csprojResolveAssemblyReference.cache
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan\obj\Debug\PnpLoan.Web.dll
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan\obj\Debug\PnpLoan.Web.pdb
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan\obj\Debug\RdlCompile.cache
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan\obj\Debug\RdlCompile.compiled

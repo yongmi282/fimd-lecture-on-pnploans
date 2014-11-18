@@ -6,3 +6,11 @@ c:\Users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan.Data\b
 c:\Users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan.Data\obj\Debug\PnpLoan.Data.csprojResolveAssemblyReference.cache
 c:\Users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan.Data\obj\Debug\PnpLoan.Data.dll
 c:\Users\dosmildyes\documents\visual studio 2013\Projects\PnpLoan\PnpLoan.Data\obj\Debug\PnpLoan.Data.pdb
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan.Data\bin\Debug\PnpLoan.Data.dll.config
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan.Data\bin\Debug\PnpLoan.Data.dll
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan.Data\bin\Debug\PnpLoan.Data.pdb
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan.Data\bin\Debug\EntityFramework.dll
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan.Data\bin\Debug\EntityFramework.xml
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan.Data\obj\Debug\PnpLoan.Data.dll
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan.Data\obj\Debug\PnpLoan.Data.pdb
+C:\Users\romyaspe\Documents\Visual Studio 2013\Projects\PnpLoans\PnpLoan.Data\obj\Debug\PnpLoan.Data.csprojResolveAssemblyReference.cache
